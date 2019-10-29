@@ -1,14 +1,6 @@
 import React from 'react';
-
-const Header = () => (
-  <header>
-    <h1>Best Characters</h1>
-  </header>
-);
-
-const Footer = () => (
-  <footer>&copy; MEEEE</footer>
-);
+import Header from './headers/Header';
+import Footer from './footers/Footer';
 
 const App = () => (
   <React.Fragment>
