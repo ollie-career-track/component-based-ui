@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <header>
-    <h1>Best Characters</h1>
+    <h1>Characters I Like</h1>
   </header>
 );
 
