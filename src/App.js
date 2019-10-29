@@ -6,7 +6,11 @@ import Character from './characters/Character';
 const App = () => (
   <React.Fragment>
     <Header />
-    <Character />
+    <Character
+      img="./assets/evil-morty.png"
+      name="Evil Morty"
+      species="Human"
+    />
     <Footer />
   </React.Fragment>
 );

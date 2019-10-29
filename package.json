@@ -5,8 +5,14 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
     "enzyme": "latest",
     "enzyme-adapter-react-16": "1.7.0",
+    "file-loader": "^4.2.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.2",
     "react": "16.6.3",
     "react-dom": "16.6.3",
     "react-jsonschema-form": "1.0.6",
@@ -15,7 +21,9 @@
     "react-scripts": "2.1.1",
     "react-test-renderer": "16.6.3",
     "redux": "4.0.1",
-    "superagent": "4.0.0-beta.5"
+    "style-loader": "^1.0.0",
+    "superagent": "4.0.0-beta.5",
+    "url-loader": "^2.2.0"
   },
   "devDependencies": {
     "prop-types": "^15.7.2",
@@ -27,7 +35,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pack:start": "webpack-dev-server --hot --mode development --devtool eval-source-map"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>__tests__/jest-setup.js"
