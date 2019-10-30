@@ -1,7 +1,17 @@
 .Header {
   color: blue;
-
-  h1{
-    background-color: lightgreen;
+  height: 100px;
+  background-color: lightgoldenrodyellow;
+  padding: 5px;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  top: -10px;
+  
+  h1 {
+    text-align: center;
+    background: transparent;
+    font-family: impact;
   }
 }
