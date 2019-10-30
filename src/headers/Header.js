@@ -3,7 +3,7 @@ import styles from './Header.css';
 
 const Header = () => (
   <header className={styles.Header}>
-    <h1>Characters I Think are Neat</h1>
+    <h1>Some Steven Universe Characters</h1>
   </header>
 );
 
