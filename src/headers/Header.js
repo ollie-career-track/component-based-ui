@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './Header.css';
 
 const Header = () => (
-  <header>
-    <h1>Characters I Like</h1>
+  <header className={styles.Header}>
+    <h1>Characters I Think are Neat</h1>
   </header>
 );
 

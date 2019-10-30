@@ -1,0 +1,12 @@
+.Character {
+  background-color: lightpink;
+  width: 300px; 
+
+  img {
+    width: 250px;
+  }
+
+  p{
+    background-color: lightyellow;
+  }
+}
