@@ -4,11 +4,12 @@
   background-color: lightgoldenrodyellow;
   padding: 5px;
   margin: 0;
-  width: 100%;
+  width: 105%;
   margin-bottom: 15px;
   position: relative;
   top: -10px;
-  
+  left: -5px;
+
   h1 {
     text-align: center;
     background: transparent;

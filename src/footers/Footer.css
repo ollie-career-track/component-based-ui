@@ -2,8 +2,9 @@
   color: blue;
   background-color: lightgreen;
   text-align: center;
-  width: 100%;
+  width: 105%;
   position: relative;
   bottom: -10px;
-  padding: 5px;
+  left: -5px;
+  padding: 10px;
 }

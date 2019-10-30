@@ -1,12 +1,23 @@
 .Character {
   background-color: lightpink;
   width: 300px; 
-
+  text-align: center;
+  color: blue;
+  font-size: 1em;
+  font-family: 'Arial Black';
+  padding: 10px;
+  margin: 25px;
+  border: 5px solid lightyellow;
+  display: inline-flex;
+  flex-direction: column;
+  
   img {
-    width: 250px;
+    max-width: 250px;
+    align-self: center;
   }
-
+  
   p{
     background-color: lightyellow;
+    padding: 1px;
   }
 }
