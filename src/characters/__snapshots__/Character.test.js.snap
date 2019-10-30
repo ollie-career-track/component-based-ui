@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component renders Character 1`] = `
+<div
+  className="Character"
+>
+  <img
+    src="./assets/evil-morty.png"
+  />
+  <p>
+    Name: 
+     Evil Morty
+  </p>
+  <p>
+    Species: 
+    Human
+  </p>
+</div>
+`;
